@@ -1,0 +1,28 @@
+.reservation-container {
+    background-color: #E5E9B1;
+}
+
+.form-group {
+    background-color: #69BC59;
+    color: white;
+    font-family: "Lily Script One";
+
+}
+
+.form-group > label {
+    color: #7F761F;
+    font-family: "Lily Script One";
+}
+
+.form-group > select > option {
+    color: black;
+    font-family: "Lily Script One";
+
+}
+
+form > button {
+    background-color: #69BC59;
+    color: white;
+    font-family: "Lily Script One";
+
+}

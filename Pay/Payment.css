@@ -1,0 +1,20 @@
+.payment-container {
+    color: #E5E9B1;
+}
+
+.payment-container > h2 {
+    color: #7F761F;
+    font-family: "Lily Script One";
+}
+
+.form-group > input {
+    color: #ffffff;
+    font-family: "Lily Script One";
+    background-color: #69BC59;
+}
+
+form > button {
+    color: #ffffff;
+    font-family: "Lily Script One";
+    background-color: #69BC59;
+}

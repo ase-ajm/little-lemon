@@ -1,0 +1,19 @@
+div> h2 {
+    color: #7F761F;
+    font-family: "Lily Script One";
+}
+
+div > img {
+    height: 100px;
+    width: 100px;
+}
+
+div > h3 {
+    color: black;
+    font-family: "Lily Script One";
+}
+
+div > .price {
+    color: #126B0E;
+    font-family: "Lily Script One";
+}
