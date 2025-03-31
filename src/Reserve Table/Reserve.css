@@ -1,0 +1,80 @@
+body {
+    background-color: #E5E9B1;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .reservation-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #7F761F; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    color: #7F761F; 
+    background-color: white;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 0.6rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: #f8f9fa; 
+  }
+  
+  button[type="submit"] {
+    padding: 0.7rem;
+    background-color: #69BC59;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: "Lily Script One", cursive;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #5aa84d; 
+  }
+  
+  .error {
+    border-color: #e63946 !important;
+  }
+  
+  .error-message {
+    color: #e63946;
+    font-size: 0.8rem;
+  }
+  
+  @media (max-width: 600px) {
+    .reservation-container {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }

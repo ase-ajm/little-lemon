@@ -1,0 +1,125 @@
+.payment-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.payment-container > h2 {
+    color: #7F761F;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+label {
+    font-weight: 600;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+input, select {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #69BC59;
+    box-shadow: 0 0 0 2px rgba(105, 188, 89, 0.2);
+}
+
+input.error, select.error {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
+
+.mock-card-input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.card-input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-details {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-details input {
+    flex: 1;
+}
+
+button {
+    background-color: #69BC59;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #5aa84d;
+}
+
+button:disabled {
+    background-color: #95d68a;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .payment-container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
