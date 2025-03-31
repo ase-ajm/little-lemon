@@ -1,3 +1,11 @@
+Welcome to the Little Lemon Website! This project is in correspondence to the Meta Front End Developer course.
+
+You can view the Live Server [here].(https://little-lemon-aseajm.vercel.app/)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
