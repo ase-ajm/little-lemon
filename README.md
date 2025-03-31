@@ -1,7 +1,8 @@
-Welcome to the Little Lemon Website! This project is in correspondence to the Meta Front End Developer course.
+# Little Lemon Restaurant Website
 
-You can view the Live Server [here].(https://little-lemon-aseajm.vercel.app/)
+Welcome to the Little Lemon website! This project was created as part of the Meta Front-End Developer course.
 
+You can view the live demo here: [here](https://little-lemon-aseajm.vercel.app/)
 
 
 
